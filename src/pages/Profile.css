@@ -1,0 +1,75 @@
+/* Profile.css */
+
+.profile-container {
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #0077cc;
+}
+
+.profile-card {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.profile-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.login-prompt {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.login-button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #005fa3;
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-card, .login-prompt {
+    padding: 1rem;
+  }
+
+  .login-button {
+    width: 100%;
+  }
+}

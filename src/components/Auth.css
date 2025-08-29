@@ -1,0 +1,87 @@
+.auth-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.auth-form button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* 🔘 Button Row Styling */
+.button-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.google-btn,
+.register-btn {
+  flex: 1;
+  min-width: 140px;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.google-btn:hover {
+  background-color: #c1351d;
+  transform: translateY(-1px);
+}
+
+.register-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.register-btn:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.step-nav {
+  display: flex;
+  justify-content: space-between;
+}
